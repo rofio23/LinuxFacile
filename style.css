@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Bitcount+Single:wght@100..900&family=Oswald:wght@200..700&family=Silkscreen:wght@400;700&display=swap');
+
+body {
+    background-color: rgb(8, 167, 212);
+    margin: 0;
+    height: 120vh;
+    z-index: -2;
+}
+
+.logo {
+    font-size: 100px;
+    left: 22.5%;
+    position: absolute;
+    width: 100%;
+    top: 66px;
+}
+
+.titre {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 45px;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: -4px;
+}
+
+.second-titre {
+    font-size: 60px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 170px;
+    font-family: "Oswald", sans-serif;
+    color: rgb(255, 89, 0);
+}
+
+
+span:nth-child(1) { color: red; }
+span:nth-child(2) { color: orange; }
+span:nth-child(3) { color: yellow; }
+span:nth-child(4) { color: green; }
+span:nth-child(5) { color: blue; }
+span:nth-child(6) { color: purple; }
+span:nth-child(7) { color: pink; }
+span:nth-child(8) { color: red; }
+span:nth-child(9) { color: orange; }
+span:nth-child(10) { color: yellow; }
+span:nth-child(11) { color: green; }
+
+span {
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.cadre-titre{
+    position: absolute;
+    background-color: rgb(165, 54, 42);
+    width: 800px;
+    height: 300px;
+    top: 30px;
+    left: 20%;
+    z-index: -1;
+    border: 7px solid orange;
+    border-radius: 20px;
+}
+
+.cd{
+    position: absolute;
+    background-color: rgb(165, 54, 42);
+    width: 300px;
+    height: 200px;
+    top: 400px;
+    left: 10%;
+    z-index: 1;
+    border: 7px solid orange;
+    border-radius: 20px;
+}
+
+.ls{
+    position: absolute;
+    background-color: rgb(165, 54, 42);
+    width: 300px;
+    height: 200px;
+    top: 400px;
+    right: 10%;
+    z-index: 1;
+    border: 7px solid orange;
+    border-radius: 20px;
+}
+
+.mkdir{
+    position: absolute;
+    background-color: rgb(165, 54, 42);
+    width: 300px;
+    height: 200px;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    border: 7px solid orange;
+    border-radius: 20px;
+}
+
+.touch-fichier-txt{
+    position: absolute;
+    background-color: rgb(165, 54, 42);
+    width: 300px;
+    height: 200px;
+    top: 668px;
+    left: 10%;
+    z-index: 1;
+    border: 7px solid orange;
+    border-radius: 20px;
+}
+
+.cddeuxpoints{
+    position: absolute;
+    background-color: rgb(165, 54, 42);
+    width: 300px;
+    height: 200px;
+    top: 668px;
+    right: 10%;
+    z-index: 1;
+    border: 7px solid orange;
+    border-radius: 20px;
+}
+
+.sudo{
+    position: absolute;
+    background-color: rgb(165, 54, 42);
+    width: 300px;
+    height: 200px;
+    top: 668px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    border: 7px solid orange;
+    border-radius: 20px;
+}
+
+.commandes > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: orange;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.commandes h1 {
+    font-size: 32px;
+    margin: 0 0 15px 0;
+}
+
+.commandes p {
+    font-size: 18px;
+    margin: 0;
+}
+
